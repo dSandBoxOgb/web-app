@@ -202,7 +202,7 @@ export default function WhoWeAre() {
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-6xl">
           <SectionBadge align="left" />
-          <h2 className="subtitle mb-8 text-left">Who we are</h2>
+          <h2 className="subtitle mb-8 text-left font-bold">Who we are</h2>
 
           {/* Grid of cards */}
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
@@ -212,7 +212,8 @@ export default function WhoWeAre() {
               return (
                 <div
                   key={idx}
-                  className="relative overflow-hidden rounded-3xl border border-gray-800 bg-black p-6 min-h-[200px]"
+                  onClick={() => handleOpenModal(sKey)}
+                  className="cursor-pointer relative overflow-hidden rounded-3xl border border-gray-800 bg-black p-6 min-h-[200px]"
                 >
                   <div className="mb-3 flex items-start gap-3">
                     <img
@@ -220,18 +221,17 @@ export default function WhoWeAre() {
                       alt={item.title}
                       className="h-5 w-5 object-contain mt-1"
                     />
-                    <button
-                      type="button"
-                      onClick={() => handleOpenModal(sKey)}
-                      className="font-semibold text-left hover:text-orange-400 transition-colors"
+                    <div
+                      
+                      className="font-semibold text-left text-[26px] hover:text-orange-400 transition-colors"
                       aria-haspopup="dialog"
                       aria-expanded={openKey === sKey}
                     >
                       {item.title}
-                    </button>
+                    </div>
                   </div>
 
-                  <p className="text-sm leading-relaxed text-gray-400 pr-28">
+                  <p className="text-[20px] leading-relaxed text-gray-400 pr-28">
                     {item.content}
                   </p>
 

@@ -19,7 +19,7 @@ export default function Mentors() {
           {/* Header Section */}
           <div className="text-left mb-12">
             <SectionBadge align="center" />
-            <h2 className="subtitle mb-8 text-left">Our Mentors</h2>
+            <h2 className="subtitle mb-8 text-left text-[52px]">Our Mentors</h2>
           </div>
           
           {/* Mentors Grid */}
@@ -42,7 +42,7 @@ export default function Mentors() {
 
                 {/* Name and Role */}
                 <div className="space-y-2">
-                  <h3 className="text-xl font-bold text-white mb-2">{mentor.name}</h3>
+                  <h3 className="text-[26px] font-bold text-white mb-2">{mentor.name}</h3>
                   <p className="text-gray-400 text-lg font-medium">{mentor.role}</p>
                 </div>
 

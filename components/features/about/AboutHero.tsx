@@ -6,7 +6,7 @@ export default function AboutHero() {
       <div className="hero-section">
         {/* Header Section */}
         <div className="flex items-center justify-center">
-          <h1 className="subtitle relative mx-auto inline-block text-center">
+          <h1 className="relative mx-auto inline-block text-center text-[96px] font-extrabold">
             About Us
             <div
               className="absolute right-0 -bottom-4 left-0 h-5 w-full bg-cover bg-top-left bg-no-repeat"
@@ -22,7 +22,7 @@ export default function AboutHero() {
         <SectionBadge align="left" />
         <div className="mb-20 grid items-center gap-12 md:grid-cols-2">
           {/* Left Column - Text Content */}
-          <div className="space-y-6 text-lg leading-relaxed text-gray-300">
+          <div className="space-y-6 text-2xl leading-relaxed text-gray-300">
             <h2 className="subtitle text-left!">About dSandbox</h2>
             <p>
               dSandBox is a global design community ecosystem created to empower

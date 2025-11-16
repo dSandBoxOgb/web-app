@@ -21,7 +21,7 @@ export default function GlobalTeam() {
             <SectionBadge align="left"/>
             </div>
           </div>
-        <h2 className="subtitle mb-8 text-left">Our Global Team</h2>
+        <h2 className="subtitle mb-8 text-left text-[52px]">Our Global Team</h2>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {teamMembers.map((member, index) => (
@@ -38,8 +38,8 @@ export default function GlobalTeam() {
               </div>
 
               <div className="p-5 text-center">
-                <h3 className="text-lg font-bold text-white mb-1">{member.name}</h3>
-                <p className="text-sm text-gray-400">{member.role}</p>
+                <h3 className="text-lg font-bold text-[26px] mb-1">{member.name}</h3>
+                <p className="text-[18px] text-gray-400">{member.role}</p>
               </div>
             </div>
           ))}
