@@ -85,6 +85,8 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+
+
 @layer base {
   * {
     /* Fallback explicit properties instead of Tailwind `@apply` to avoid build-time CSS parsing issues */

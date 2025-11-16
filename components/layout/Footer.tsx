@@ -12,7 +12,7 @@ export default function Footer() {
       <footer className="bg-white dark:bg-black py-16 lg:px-20 px-4">
         <div className="mx-auto">
           {/* Main Footer Content */}
-          <div className="grid grid-cols-1 gap-8 border-gray-800 pb-3 md:grid-cols-2 lg:grid-cols-4 lg:gap-12">
+          <div className="grid grid-cols-2x gap-8 border-gray-800 pb-3 md:grid-cols-2 lg:grid-cols-4 lg:gap-12">
             {/* Contact Info - First Column */}
             <div className="lg:col-span-1">
               {/* Logo */}

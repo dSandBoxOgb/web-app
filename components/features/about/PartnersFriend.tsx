@@ -1,6 +1,4 @@
 
-
-
 import SectionBadge from "@/components/common/section_badge";
 import Image from "next/image";
 
